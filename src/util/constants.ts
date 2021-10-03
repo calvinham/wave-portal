@@ -1,0 +1,1 @@
+export const CONTACT_ADDRESS: string = "0x728954a5ea8974f00cA8854185fb8004C69cF540";

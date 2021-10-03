@@ -1,0 +1,49 @@
+@import '../../styles/variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+  .txnContainer {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ccd6f6;
+    border-radius: 10px;
+    background-color: #2e3a53;
+    margin-bottom: 20px;
+    width: 100%;
+  
+    .nonMessageData {
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-weight: 400;
+      font-size: 14px;
+      color: $secondary-color;
+  
+      .walletContainer {
+        display: flex;
+        justify-content: left;
+      }
+      
+      .timestampContainer {
+        display: flex;
+        justify-content: right;
+      }
+    }
+    
+    .messageContainer {
+      display: flex;
+      justify-content: left;
+      font-size: 18px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
